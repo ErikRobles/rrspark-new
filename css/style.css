@@ -1,0 +1,295 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosansnewtailue.css);
+body {
+    margin: 0;
+    font-family: 'Noto Sans New Tai Lue', sans-serif;;
+    font-weight: normal;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+/* Main Area */
+
+.uppercase {
+    text-transform: uppercase;
+    text-align: center;
+    color: #cccacc;
+    font-size: 18px;
+}
+
+.main-grid-container {
+    padding-left: 75px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr ; 
+    grid-template-rows: 40vh 40vh 20vh; 
+    grid-template-areas: 
+        "main main main top-right"
+        "main main main bottom-right"
+        "main main main last-box";
+
+}
+
+.item1 {
+    grid-area: main;
+    background-color: #3e1349;
+    position: relative;
+}
+
+.item2 {
+    grid-area: top-right;
+    background-color: #d7d7d7;
+  }
+
+  .item3 {
+      grid-area: bottom-right;
+      background-color: #7a797a;
+  }
+
+.item4 {
+      grid-area: last-box;
+      background-color: #323232;
+}
+  
+@media only screen and (max-width: 850px) {
+    .main-grid-container {
+        grid-template: 100%;
+        grid-template-rows: 75vh 50vh 50vh 50vh;
+        grid-template-areas: 
+            "main"
+            "top-right"
+            "bottom-right"
+            "last-box";
+            padding-left: 0px;
+            padding-top: 49px;
+    }  
+}
+.logo-image {
+    width: 100%;
+}
+
+.image-holder {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    margin-left: -150px;
+    margin-top: -150px;   
+}
+
+@media screen and (min-width: 900px) {
+    .image-holder {
+        width: 500px;
+        height: 500px;
+        margin-left: -250px;
+        margin-top: -250px;
+    }
+    .uppercase {
+        font-size: 22px;
+    }
+}
+
+.item-wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* Navigation */
+
+.colored-side-slogan {
+    position: absolute;
+    color: #fff;
+    font-size: 16px;
+    top: 13px;
+    left: 15%;
+    letter-spacing: 3px;
+}
+
+@media only screen and (min-width: 850px) {
+    .colored-side-slogan {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        transform: rotate(-180deg);
+        top: 40%;
+        left: 5px;
+    }
+}
+
+@media only screen and (max-width: 849px) {
+    .colored-side-slogan {
+        left: 30%;
+    }
+}
+@media only screen and (max-width: 749px) {
+    .colored-side-slogan {
+        left: 25%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .colored-side-slogan {
+        letter-spacing: 1px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .colored-side-slogan {
+        left: 17%;
+        letter-spacing: 1px;
+    }
+}
+
+.sidebar-content {
+    border-top: 1px solid #333;
+    padding: 15px;
+    color: #333;
+}
+
+.sidebar-content h3 {
+    font-size: 28px;
+    margin-top: 5px;
+    padding-left: 85px;
+}
+
+.sidebar-content h4 {
+    font-size: 24px;
+    padding-left: 85px;
+}
+
+.sidebar-content p {
+    font-size: 18px;
+    padding-left: 85px;
+}
+
+.sidebar-content ul {
+    list-style: none;
+}
+
+.sidebar-content ul li {
+    font-size: 18px;
+    padding-left: 85px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    border-right: 1px solid #333;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 18px 18px 18px 150px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #333;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #787878;
+  }
+
+  .button-area {
+      font-size: 50px;
+      font-weight: 300;
+      color: #fff;
+      padding-left: 20px;
+      padding-top: 20px;
+      position: absolute;
+      top: 30px;
+  }
+
+  span .button-area {
+      font-size: 75px; 
+  }
+
+  @media only screen and (max-width: 850px) {
+      .button-area {
+          position: absolute;
+          top: -31px;
+          right: 8px;
+      }
+  }
+
+  .colored-side {
+      background-color: #704179;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 80px;
+      height: 100vh;
+      z-index: 1;
+  }
+
+  @media only screen and (max-width: 850px) {
+      .colored-side {
+          width: 100%;
+          height: 50px!important;
+          z-index: 0;
+      }
+  }
+
+ .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+@media screen and (max-height: 850px) {
+    .sidenav {
+        margin-top: 50px!important;
+    }
+}
+
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  @media only screen and (max-width: 850px) {
+    .sidebar-content h3,
+    .sidebar-content h4,
+    .sidebar-content p,
+    .sidebar-content a,
+    .sidebar-content ul li {
+        padding-left: 5px;
+    }
+    .sidenav a {
+        padding-left: 120px;
+    }
+}
+
+  .link-holder {
+      position: absolute;
+      top: 6px;
+      left: 8px;
+      margin-top: 5px;
+  }
+
+  .link-holder a {
+      color: #fff;
+      font-size: 12px;
+      transition: ease-in-out .5s;
+  }
+
+  .link-holder a:hover {
+      color: #5a5a5a;
+      zoom: 1.1;
+}
+
+/* Services Area */
+
+
+/* Suplementary Area */
+
+/* Footer */
