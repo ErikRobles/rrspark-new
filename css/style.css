@@ -128,8 +128,9 @@ h3 {
         writing-mode: vertical-rl;
         text-orientation: mixed;
         transform: rotate(-180deg);
-        top: 40%;
+        top: 30%;
         left: 5px;
+        font-size: 19px;
     }
 }
 
@@ -545,6 +546,18 @@ p.copy {
 @media only screen and (max-width: 1460px) {
     .container {
         width: 85%;
+    }  
+}
+
+@media only screen and (max-width: 1145px) {
+    .standard-info .footer-text:first-child {
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .container {
+        width: 90%;
     }  
 }
 
