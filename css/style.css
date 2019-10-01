@@ -180,6 +180,73 @@ h3 {
   margin: 0 auto;
 }
 
+.how-to-container {
+  background-color: #d7d7d7;
+  min-height: 300px;
+}
+
+.how-wrapper {
+  max-width: 99.9%;
+  padding-left: 85px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 33.334% 33.334% 33.334%;
+  margin-top: 30px;
+}
+
+.boxa,
+.boxb,
+.boxc {
+  padding: 20px 70px;
+  text-align: center;
+}
+
+.iconboxlinks {
+  text-decoration: none;
+  color: #d7d7d7;
+}
+
+.iconboxlinks:hover {
+  color: #b4b3b3;
+}
+
+.how-title {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3e1349;
+  font-weight: bold;
+}
+
+.iconbox {
+  margin: 0 auto;
+  background-color: #3e1349;
+  color: #d5d5d5;
+  padding: 20px;
+  width: 135px;
+  height: 135px;
+  transition: 0.5s ease-in-out;
+}
+
+.iconbox h3 {
+  font-size: 18px;
+}
+
+.iconbox:hover {
+  transform: scale(1.05);
+}
+
+.fa.fa-comments,
+.fas.fa-drafting-compass,
+.fas.fa-hands-helping {
+  font-size: 75px !important;
+}
+
+.how-to-text {
+  font-weight: bold;
+  font-size: 14px;
+  color: #3e1349;
+}
+
 .grid-wrapper {
   display: grid;
   grid-template-columns: 50% 50%;
