@@ -20,7 +20,6 @@ function TransMod() {
   library["en"]["translatable.tra12"] = "C";
   library["en"]["translatable.tra13"] = "ONTACT";
   library["en"]["translatable.tra14"] = "LET OUR SPARK IGNITE YOUR VISION";
-  // library["en"]["translatable.tra15"] = "Increase your<br /> on-line clientele";
   library["en"]["translatable.tra16"] =
     "Increase the number of<br />clients that want you<br />to be a part of their story";
   library["en"]["translatable.tra17"] = "Landing Pages";
@@ -66,6 +65,20 @@ function TransMod() {
     "We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.";
   library["en"]["translatable.traL21"] =
     "If we make any material changes to this Privacy Policy, we will post that information here.";
+  library["en"]["translatable.traH1"] = "WE HELP YOU<br /> FIND THE BEST PATH";
+  library["en"]["translatable.traH2"] = "CHAT WITH<br /> US";
+  library["en"]["translatable.traH3"] =
+    "In the world of web, there are many paths. There is only one that fits:<br> Your type of business objectives and budget</p>";
+  library["en"]["translatable.traH4"] =
+    "WE CLEAR THE WAY AND WALK ALONG THE PATH WITH YOU";
+  library["en"]["translatable.traH5"] = "WE CREATE IT FOR YOU";
+  library["en"]["translatable.traH6"] =
+    "We agree upon a plan and a schedule of processes. You make an inicial down payment. We meet periodically to see progress and make adjustments. Finally, you complete the payment process upon delivery.";
+  library["en"]["translatable.traH7"] =
+    "AND LATER... WHEN YOU NEED US, WE WILL BE THERE WITH YOU";
+  library["en"]["translatable.traH8"] = "WE'VE GOT YOUR BACK";
+  library["en"]["translatable.traH9"] =
+    "Your first steps in the world of the web should be easy, but is something goes wrong, you can always contact us. We will be there for you.";
 
   library["es"] = new Array();
   library["es"]["translatable.tra1"] = "I";
@@ -83,8 +96,6 @@ function TransMod() {
   library["es"]["translatable.tra13"] = "ONTACTO";
   library["es"]["translatable.tra14"] =
     "DEJA QUE NUESTRA CHISPA DÉ VIDA A TU VISIÓN";
-  library["es"]["translatable.tra15"] =
-    "Incrementa tu<br />  clientela en linea";
   library["es"]["translatable.tra16"] =
     "Incrementa el número de<br />clientes que quieren que<br />seas parte de su historia";
   library["es"]["translatable.tra17"] = "Landing Pages";
@@ -94,27 +105,58 @@ function TransMod() {
   library["es"]["translatable.tra21"] = "Nuestro Equipo";
   library["es"]["translatable.tra22"] = "Aviso de Privacidad";
   library["es"]["translatable.tra23"] = "SERVICIOS";
-  library["es"]["translatable.traL1"] = "";
-  library["es"]["translatable.traL2"] = "";
-  library["es"]["translatable.traL3"] = "";
-  library["es"]["translatable.traL4"] = "";
-  library["es"]["translatable.traL5"] = "";
-  library["es"]["translatable.traL6"] = "";
-  library["es"]["translatable.traL7"] = "";
-  library["es"]["translatable.traL8"] = "";
-  library["es"]["translatable.traL9"] = "";
-  library["es"]["translatable.traL10"] = "";
-  library["es"]["translatable.traL11"] = "";
-  library["es"]["translatable.traL12"] = "";
-  library["es"]["translatable.traL13"] = "";
-  library["es"]["translatable.traL14"] = "";
-  library["es"]["translatable.traL15"] = "";
-  library["es"]["translatable.traL16"] = "";
-  library["es"]["translatable.traL17"] = "";
-  library["es"]["translatable.traL18"] = "";
-  library["es"]["translatable.traL19"] = "";
-  library["es"]["translatable.traL20"] = "";
-  library["es"]["translatable.traL21"] = "";
+  library["es"]["translatable.traL1"] = "RR Spark Política de Privacidad";
+  library["es"]["translatable.traL2"] = "Pólitica de Privacidad";
+  library["es"]["translatable.traL3"] =
+    "Última actualización: 1 de octubre de 2019";
+  library["es"]["translatable.traL4"] =
+    "RR Spark opera https://www.rrspark.com (el 'Sitio'). Esta página le informa sobre nuestras políticas con respecto a la recopilación, uso y divulgación de la Información personal que recibimos de los usuarios del Sitio";
+  library["es"]["translatable.traL5"] =
+    "Utilizamos su información personal solo para proporcionar y mejorar el sitio. Al usar el Sitio, usted acepta la recopilación y el uso de información de acuerdo con esta política.";
+  library["es"]["translatable.traL6"] = "Recolección de Información y Uso";
+  library["es"]["translatable.traL7"] =
+    "Al usar nuestro sitio, podemos pedirle que nos proporcione cierta información de identificación personal que se puede utilizar para contactarlo o identificarlo. La información de identificación personal puede incluir, entre otros, su nombre ('Información personal').";
+  library["es"]["translatable.traL8"] = "Dato de Registro";
+  library["es"]["translatable.traL9"] =
+    "Al igual que muchos operadores de sitios, recopilamos información que su navegador envía cada vez que visita nuestro Sitio ('Datos de registro').";
+  library["es"]["translatable.traL10"] =
+    "Estos datos de registro pueden incluir información como la dirección del Protocolo de Internet ('IP') de su computadora, el tipo de navegador, la versión del navegador, las páginas de nuestro sitio que visita, la hora y la fecha de su visita, el tiempo dedicado a esas páginas y otros estadística.";
+  library["es"]["translatable.traL11"] =
+    "Además, podemos utilizar servicios de terceros como Google Analytics que recopilan, monitorean y analizan datos de los usuarios que visitan este sitio.";
+  library["es"]["translatable.traL12"] = "Comunicaciones";
+  library["es"]["translatable.traL13"] =
+    "Podemos utilizar su información personal para contactarlo con boletines informativos, materiales de marketing o promocionales y otra información que podamos considerar útil para quienes visiten el sitio.";
+  library["es"]["translatable.traL14"] = "Cookies";
+  library["es"]["translatable.traL15"] =
+    "Las cookies son archivos con una pequeña cantidad de datos, que pueden incluir un identificador único anónimo. Las cookies se envían a su navegador desde un sitio web y se almacenan en el disco duro de su computadora.";
+  library["es"]["translatable.traL16"] =
+    "Al igual que muchos sitios, utilizamos 'cookies' para recopilar información. Puede indicar a su navegador que rechace todas las cookies o que indique cuándo se envía una cookie. Sin embargo, si no acepta las cookies, es posible que no pueda usar algunas partes de nuestro Sitio.";
+  library["es"]["translatable.traL17"] = "Seguridad";
+  library["es"]["translatable.traL17a"] =
+    "La seguridad de su información personal es importante para nosotros, pero recuerde que ningún método de transmisión por Internet o método de almacenamiento electrónico es 100% seguro. Si bien nos esforzamos por utilizar medios comercialmente aceptables para proteger su información personal, no podemos garantizar su seguridad absoluta.";
+  library["es"]["translatable.traL18"] =
+    "Cambios a esta Política de Privacidad";
+  library["es"]["translatable.traL19"] =
+    "Esta Política de privacidad entra en vigencia a partir del (1 de octubre de 2019) y permanecerá vigente, excepto con respecto a cualquier cambio en sus disposiciones en el futuro, que entrará en vigencia inmediatamente después de su publicación en esta página.";
+  library["es"]["translatable.traL20"] =
+    "Nos reservamos el derecho de actualizar o cambiar nuestra Política de privacidad en cualquier momento y usted debe verificar esta Política de privacidad periódicamente. Su uso continuado del Servicio después de que publiquemos cualquier modificación a la Política de privacidad en esta página constituirá su reconocimiento de las modificaciones y su consentimiento para cumplir y estar sujeto a la Política de privacidad modificada.";
+  library["es"]["translatable.traL21"] =
+    "Si hacemos cambios materiales a esta Política de privacidad, publicaremos esa información aquí.";
+  library["es"]["translatable.traH1"] =
+    "TE AYUDAMOS A ENCONTRAR EL MEJOR CAMINO";
+  library["es"]["translatable.traH2"] = "PLATICA CON<br /> NOSOTROS";
+  library["es"]["translatable.traH3"] =
+    "En el universo web hay muchos caminos. Hay uno que se ajusta a :<br> tu tipo de negocio<br />objetivos<br />y presupuesto</p>";
+  library["es"]["translatable.traH4"] =
+    "ABRIMOS LA SENDA PARA TI Y CAMINAREMOS CONTIGO";
+  library["es"]["translatable.traH5"] = "LO CREAMOS<br />PARA TI";
+  library["es"]["translatable.traH6"] =
+    "Acordamos un plan y un calendario de procesos<br />Haces el depósito inicial<br />Tendremos citas para ver el progreso y ajustes<br />Liquidas el momento de la entrega";
+  library["es"]["translatable.traH7"] =
+    "Y DESPUÉS... CUANDO NOS NECESITES ESTAREMOS CONTIGO";
+  library["es"]["translatable.traH8"] = "CUIDAMOS<br />TU ESPALDA";
+  library["es"]["translatable.traH9"] =
+    "Tus primeros pasos en el universo web<br />serán sencillos pero si algo se te complica<br />puedes contactarnos,<br />Estaremos ahí para ayudarte";
 }
 
 //( function(){
@@ -144,6 +186,60 @@ function InitStaticText(lang) {
   $("#tra21").html(langModule.translate(lang, $("#tra21").attr("data-token")));
   $("#tra22").html(langModule.translate(lang, $("#tra22").attr("data-token")));
   $("#tra23").html(langModule.translate(lang, $("#tra23").attr("data-token")));
+  $("#traL1").html(langModule.translate(lang, $("#traL1").attr("data-token")));
+  $("#traL2").html(langModule.translate(lang, $("#traL2").attr("data-token")));
+  $("#traL3").html(langModule.translate(lang, $("#traL3").attr("data-token")));
+  $("#traL4").html(langModule.translate(lang, $("#traL4").attr("data-token")));
+  $("#traL5").html(langModule.translate(lang, $("#traL5").attr("data-token")));
+  $("#traL6").html(langModule.translate(lang, $("#traL6").attr("data-token")));
+  $("#traL7").html(langModule.translate(lang, $("#traL7").attr("data-token")));
+  $("#traL8").html(langModule.translate(lang, $("#traL8").attr("data-token")));
+  $("#traL9").html(langModule.translate(lang, $("#traL9").attr("data-token")));
+  $("#traL10").html(
+    langModule.translate(lang, $("#traL10").attr("data-token"))
+  );
+  $("#traL11").html(
+    langModule.translate(lang, $("#traL11").attr("data-token"))
+  );
+  $("#traL12").html(
+    langModule.translate(lang, $("#traL12").attr("data-token"))
+  );
+  $("#traL13").html(
+    langModule.translate(lang, $("#traL13").attr("data-token"))
+  );
+  $("#traL14").html(
+    langModule.translate(lang, $("#traL14").attr("data-token"))
+  );
+  $("#traL15").html(
+    langModule.translate(lang, $("#traL15").attr("data-token"))
+  );
+  $("#traL16").html(
+    langModule.translate(lang, $("#traL16").attr("data-token"))
+  );
+  $("#traL17").html(
+    langModule.translate(lang, $("#traL17").attr("data-token"))
+  );
+  $("#traL18").html(
+    langModule.translate(lang, $("#traL18").attr("data-token"))
+  );
+  $("#traL19").html(
+    langModule.translate(lang, $("#traL19").attr("data-token"))
+  );
+  $("#traL20").html(
+    langModule.translate(lang, $("#traL20").attr("data-token"))
+  );
+  $("#traL21").html(
+    langModule.translate(lang, $("#traL21").attr("data-token"))
+  );
+  $("#traH1").html(langModule.translate(lang, $("#traH1").attr("data-token")));
+  $("#traH2").html(langModule.translate(lang, $("#traH2").attr("data-token")));
+  $("#traH3").html(langModule.translate(lang, $("#traH3").attr("data-token")));
+  $("#traH4").html(langModule.translate(lang, $("#traH4").attr("data-token")));
+  $("#traH5").html(langModule.translate(lang, $("#traH5").attr("data-token")));
+  $("#traH6").html(langModule.translate(lang, $("#traH6").attr("data-token")));
+  $("#traH7").html(langModule.translate(lang, $("#traH7").attr("data-token")));
+  $("#traH8").html(langModule.translate(lang, $("#traH8").attr("data-token")));
+  $("#traH9").html(langModule.translate(lang, $("#traH9").attr("data-token")));
 }
 
 //InitStaticText("en");
