@@ -68,7 +68,11 @@
             data-token="translatable.tra21"
             >Our Team</a
           ><br /> -->
-          <a href="#" class="aviso" id="tra22" data-token="translatable.tra22"
+          <a
+            href="privacy.html"
+            class="aviso"
+            id="tra22"
+            data-token="translatable.tra22"
             >Privacy Policy</a
           >
           <p class="copy">&copy;2019 RRspark</p>
@@ -86,7 +90,9 @@
       <span class="button-area" style="cursor:pointer" onclick="openNav()"
         >&#43;</span
       >
-      <h3 class="colored-side-slogan">RRspark Stellar Web Studio</h3>
+      <a href="index.html">
+        <h3 class="colored-side-slogan">RRspark Stellar Web Studio</h3>
+      </a>
     </div>
     <div class="main-grid-container">
       <div class="item1">
@@ -103,13 +109,15 @@
           <div class="container">
             <div class="center-obj">
               <a
-                href="#"
+                href="how-to-start.html"
                 class="button-box button-text-1"
                 id="tra16"
                 data-token="translatable.tra16"
                 >Increase the number of<br />
-                clients that want you<br />
-                to be a part of their story</a
+                <span class="stronger"
+                  >clients that want you<br />
+                  to be a part of their story</span
+                ></a
               >
             </div>
           </div>
@@ -195,6 +203,9 @@
     <script src="js/lang_x.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="/assets/owl.carousel.min.js"></script>
+    <script>
+      detect_location.init();
+    </script>
     <script>
       $(document).on("DOMContentLoaded", function() {
         $(".owl-carousel").owlCarousel({

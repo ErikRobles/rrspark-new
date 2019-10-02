@@ -19,9 +19,10 @@ function TransMod() {
   library["en"]["translatable.tra11"] = "ERVICES";
   library["en"]["translatable.tra12"] = "C";
   library["en"]["translatable.tra13"] = "ONTACT";
-  library["en"]["translatable.tra14"] = "LET OUR SPARK IGNITE YOUR VISION";
+  library["en"]["translatable.tra14"] =
+    "LET OUR SPARK IGNITE<br /> YOUR VISION";
   library["en"]["translatable.tra16"] =
-    "Increase the number of<br />clients that want you<br />to be a part of their story";
+    "Increase the number of<br /><span class='stronger'>clients that want you<br />to be a part of their story</span>";
   library["en"]["translatable.tra17"] = "Landing Pages";
   library["en"]["translatable.tra18"] = "Web Sites";
   library["en"]["translatable.tra19"] = "E-Commerce";
@@ -65,7 +66,7 @@ function TransMod() {
     "We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.";
   library["en"]["translatable.traL21"] =
     "If we make any material changes to this Privacy Policy, we will post that information here.";
-  library["en"]["translatable.traH1"] = "WE HELP YOU<br /> FIND THE BEST PATH";
+  library["en"]["translatable.traH1"] = "WE HELP YOU FIND THE<br /> BEST PATH";
   library["en"]["translatable.traH2"] = "CHAT WITH<br /> US";
   library["en"]["translatable.traH3"] =
     "In the world of web, there are many paths. There is only one that fits:<br> Your type of business objectives and budget</p>";
@@ -97,7 +98,7 @@ function TransMod() {
   library["es"]["translatable.tra14"] =
     "DEJA QUE NUESTRA CHISPA DÉ VIDA A TU VISIÓN";
   library["es"]["translatable.tra16"] =
-    "Incrementa el número de<br />clientes que quieren que<br />seas parte de su historia";
+    "Incrementa el número de<br /><span class='stronger'>clientes que quieren que<br />seas parte de su historia<span>";
   library["es"]["translatable.tra17"] = "Landing Pages";
   library["es"]["translatable.tra18"] = "Sitios Web";
   library["es"]["translatable.tra19"] = "E-Commerce";
@@ -146,7 +147,7 @@ function TransMod() {
     "TE AYUDAMOS A ENCONTRAR EL MEJOR CAMINO";
   library["es"]["translatable.traH2"] = "PLATICA CON<br /> NOSOTROS";
   library["es"]["translatable.traH3"] =
-    "En el universo web hay muchos caminos. Hay uno que se ajusta a :<br> tu tipo de negocio<br />objetivos<br />y presupuesto</p>";
+    "En el universo web hay muchos caminos.<br /> Hay uno que se ajusta a :<br> tu tipo de negocio<br />objetivos y presupuesto</p>";
   library["es"]["translatable.traH4"] =
     "ABRIMOS LA SENDA PARA TI Y CAMINAREMOS CONTIGO";
   library["es"]["translatable.traH5"] = "LO CREAMOS<br />PARA TI";

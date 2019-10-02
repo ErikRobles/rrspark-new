@@ -8,6 +8,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css"
     />
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Oswald:300,400,700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Anaheim|Andika|Anton|Arsenal|Barlow+Semi+Condensed|Catamaran:300,400,700|Didact+Gothic|Fresca|Hind+Vadodara|Istok+Web|Karla|Lato|Livvic|Mallanna|Montserrat:300,400,500,700|Mukta+Malar|Niramit|Pavanam|Prompt|Righteous|Rosario|Scada|Squada+One&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <script src="js/jquery.js"></script>
@@ -88,15 +96,22 @@
       <span class="button-area" style="cursor:pointer" onclick="openNav()"
         >&#43;</span
       >
-      <h3 class="colored-side-slogan">RRspark Stellar Web Studio</h3>
+      <a href="index.html">
+        <h3 class="colored-side-slogan">RRspark Stellar Web Studio</h3>
+      </a>
     </div>
     <div class="main-grid-container">
       <div class="item1">
         <div class="item-wrapper">
           <div class="image-holder">
             <img class="logo-image" src="./assets/img/RRLogo2.png" alt="" />
-            <h1 class="uppercase" id="tra14" data-token="translatable.tra14">
-              LET OUR SPARK IGNITE YOUR VISION
+            <h1
+              class="uppercase slogan"
+              id="tra14"
+              data-token="translatable.tra14"
+            >
+              LET OUR SPARK IGNITE<br />
+              YOUR VISION
             </h1>
 
             <div class="showin">
@@ -121,8 +136,10 @@
                 id="tra16"
                 data-token="translatable.tra16"
                 >Increase the number of<br />
-                clients that want you<br />
-                to be a part of their story</a
+                <span class="stronger"
+                  >clients that want you<br />
+                  to be a part of their story</span
+                ></a
               >
             </div>
           </div>
@@ -207,5 +224,8 @@
     <script src="js/script.js"></script>
     <script type="text/javascript" src="js/language.js"></script>
     <script src="js/lang_x.js"></script>
+    <script>
+      detect_location.init();
+    </script>
   </body>
 </html>
