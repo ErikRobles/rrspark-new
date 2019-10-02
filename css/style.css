@@ -219,7 +219,7 @@ h3 {
 
 .how-title {
   font-size: 20px;
-  font-family: "Oswald", sans-serif;
+  font-family: "Fresca", sans-serif;
   color: #3e1349;
   font-weight: bold;
   line-height: 22px;
@@ -236,17 +236,22 @@ h3 {
 }
 
 .iconbox h3 {
+  font-family: "Lato", sans-serif;
   font-size: 18px;
 }
 
 .fa.fa-comments,
 .fas.fa-drafting-compass,
-.fas.fa-hands-helping {
+.fas.fa-hands-helping,
+.fas.fa-paper-plane,
+.fas.fa-globe,
+.fas.fa-shopping-cart {
   font-size: 60px !important;
 }
 
 .how-to-text {
   font-weight: bold;
+  font-family: "Istok Web", sans-serif;
   font-size: 14px;
   color: #3e1349;
 }
@@ -288,6 +293,11 @@ h3 {
   z-index: 154;
 }
 
+#en,
+#es {
+  font-family: "Istok Web", sans-serif;
+}
+
 .slogan {
   font-family: "Lato", sans-serif;
 }
@@ -295,7 +305,7 @@ h3 {
 .sidebar-content {
   border-top: 3px solid #341b39;
   padding: 15px;
-  font-family: "Mallana", sans-serif;
+  font-family: "Istok Web", sans-serif;
   color: #333;
 }
 
@@ -340,7 +350,7 @@ h3 {
 .sidenav a {
   padding: 5px 5px 5px 85px;
   text-decoration: none;
-  font-family: "Mallana", sans-serif;
+  font-family: "Istok Web", sans-serif;
   font-size: 18px;
   color: #341b39;
   display: block;
@@ -558,6 +568,7 @@ p.copy {
 
 .services-menu ul li a {
   text-decoration: none;
+  font-family: "Istok Web", sans-serif;
   font-size: 34px;
   color: #d7d7d7;
   font-weight: normal;
@@ -632,6 +643,7 @@ p.copy {
 
 .footer-text {
   text-align: left;
+  font-family: "Istok Web", sans-serif;
   font-size: 18px;
   margin: 0;
   padding: 0;
