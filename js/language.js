@@ -66,20 +66,25 @@ function TransMod() {
     "We reserve the right to update or change our Privacy Policy at any time and you should check this Privacy Policy periodically. Your continued use of the Service after we post any modifications to the Privacy Policy on this page will constitute your acknowledgment of the modifications and your consent to abide and be bound by the modified Privacy Policy.";
   library["en"]["translatable.traL21"] =
     "If we make any material changes to this Privacy Policy, we will post that information here.";
-  library["en"]["translatable.traH1"] = "WE HELP YOU FIND THE<br /> BEST PATH";
+  library["en"]["translatable.traH1"] =
+    "WE HELP YOU FIND<br /> THE BEST PATH<BR /> FOR YOUR OBJECTIVE";
   library["en"]["translatable.traH2"] = "CHAT<br /> WITH US";
   library["en"]["translatable.traH3"] =
-    "In the world of web, there are many paths. <br />There is only one that fits:<br> Your type of business objectives and budget</p>";
+    "In the world of web, there<br /> are many paths. There is only one that fits:<br>";
+  library["en"]["translatable.traH3a"] =
+    "<ul class='list-text' style='text-align: left; margin-left: -25px;'><li>Your type of business</li><li>Objectives and</li><li>Budget</li></ul>";
   library["en"]["translatable.traH4"] =
-    "WE CLEAR THE WAY AND WALK ALONG THE PATH WITH YOU";
+    "WE CLEAR THE WAY<BR /> AND WALK ALONG<BR /> THE PATH WITH YOU";
   library["en"]["translatable.traH5"] = "WE CREATE IT FOR YOU";
   library["en"]["translatable.traH6"] =
-    "We agree upon a plan and a schedule of processes. You make an inicial down payment. We meet periodically to see progress and make adjustments. Finally, you complete the payment process upon delivery.";
+    "<ul style='text-align: left; margin-left: -25px;'><li>We agree upon a plan and a schedule of processes</li><li>Make an inicial down payment</li><li>We meet periodically to see progress and make adjustments</li><li>Complete the payment process upon delivery</li></ul>";
   library["en"]["translatable.traH7"] =
-    "AND LATER... WHEN YOU NEED US, WE WILL BE THERE WITH YOU";
+    "AND LATER... WHEN<br /> YOU NEED US, WE<br /> WILL BE THERE WITH YOU";
   library["en"]["translatable.traH8"] = "WE'VE GOT YOUR BACK";
   library["en"]["translatable.traH9"] =
-    "Your first steps in the world of the web should be easy, but is something goes wrong, you can always contact us. We will be there for you.";
+    "Your first steps in your<br />web business should be easy,<br /> but is something goes wrong, you can always contact us.";
+  library["en"]["translatable.tra9a"] =
+    "<ul class='list-text' style='text-align: left; margin-left: -25px;'><li>Without a doubt, we will be there for you</li></ul>";
   library["en"]["translatable.traS1"] =
     "ATTRACT NEW CLIENTS<br /> WITH PROMOTIONS";
   library["en"]["translatable.traS2"] = "LANDING PAGES";
@@ -91,6 +96,8 @@ function TransMod() {
   library["en"]["translatable.traS7"] = "SELL YOUR PRODUCT<br /> AND SERVICES";
   library["en"]["translatable.traS8"] = "E-COMMERCE";
   library["en"]["translatable.traS9"] = "";
+  library["en"]["translatable.traIMG"] =
+    "<img src='/assets/img/engrrsparkctabutton.png' alt=''>";
 
   library["es"] = new Array();
   library["es"]["translatable.tra1"] = "I";
@@ -155,20 +162,24 @@ function TransMod() {
   library["es"]["translatable.traL21"] =
     "Si hacemos cambios materiales a esta Política de privacidad, publicaremos esa información aquí.";
   library["es"]["translatable.traH1"] =
-    "TE AYUDAMOS A ENCONTRAR<br /> EL MEJOR CAMINO";
+    "ENCONTRAREMOS<br />LA MEJOR VÍA<br />PARA TU OBJETIVO";
   library["es"]["translatable.traH2"] = "PLATICA CON<br /> NOSOTROS";
   library["es"]["translatable.traH3"] =
-    "En el universo web hay muchos caminos.<br /> Hay uno que se ajusta a :<br> tu tipo de negocio<br />objetivos y presupuesto</p>";
+    "En el universo web hay<br />muchos caminos y uno<br />que se ajusta a :<br>";
+  library["es"]["translatable.traH3a"] =
+    "<ul class='list-text' style='text-align: left; margin-left: -25px;'><li>Tu tipo de negocio</li><li>Ovjetivos y</li><li>Presupuesto</li></ul>";
   library["es"]["translatable.traH4"] =
-    "ABRIMOS LA SENDA PARA TI Y CAMINAREMOS CONTIGO";
+    "ABRIMOS<br />EL CAMINO Y<br>AVANZAREMOS CONTIGO";
   library["es"]["translatable.traH5"] = "LO CREAMOS<br />PARA TI";
   library["es"]["translatable.traH6"] =
-    "Acordamos un plan y un calendario de procesos<br />Haces el depósito inicial<br />Tendremos citas para ver el progreso y ajustes<br />Liquidas el momento de la entrega";
+    "<ul class='list-text' style='text-align: left; margin-left: -25px;'><li>Acordamos un plan y un calendario de procesos.</li><li>Haces el depósito inicial</li><li>Tendremos citas para ver el progreso y ajustes</li><li>Liquidas al momento de la entrega de tu sitio web</li></ul>";
   library["es"]["translatable.traH7"] =
-    "Y DESPUÉS... CUANDO NOS NECESITES ESTAREMOS CONTIGO";
+    "Y DESPUÉS... CUANDO<br /> NOS NECESITES<br /> ESTAREMOS CONTIGO";
   library["es"]["translatable.traH8"] = "CUIDAMOS<br />TU ESPALDA";
   library["es"]["translatable.traH9"] =
-    "Tus primeros pasos en el universo web<br />serán sencillos pero si algo se te complica<br />puedes contactarnos,<br />Estaremos ahí para ayudarte";
+    "Tus primeros pasos con tu negocio web serán sencillos pero si algo se complicará, puedes contactarnos.";
+  library["es"]["translatable.traH9a"] =
+    "<ul class='list-text' style='text-align: left; margin-left: -25px;'><li>Sin duda, estaremos ahí para ayudarte</li></ul>";
   library["es"]["translatable.traS1"] =
     "ATRAER NUEVOS CLIENTES<br /> CON PROMOCIONES";
   library["es"]["translatable.traS2"] = "LANDING PAGES";
@@ -180,6 +191,8 @@ function TransMod() {
     "VENDER TUS PRODUCTOS<br /> Y SERVICIOS";
   library["es"]["translatable.traS8"] = "E-COMMERCE";
   library["es"]["translatable.traS9"] = "";
+  library["es"]["translatable.traIMG"] =
+    "<img src='/assets/img/esprrsparkctabutton.png' alt=''>";
 }
 
 //( function(){
@@ -257,12 +270,18 @@ function InitStaticText(lang) {
   $("#traH1").html(langModule.translate(lang, $("#traH1").attr("data-token")));
   $("#traH2").html(langModule.translate(lang, $("#traH2").attr("data-token")));
   $("#traH3").html(langModule.translate(lang, $("#traH3").attr("data-token")));
+  $("#traH3a").html(
+    langModule.translate(lang, $("#traH3a").attr("data-token"))
+  );
   $("#traH4").html(langModule.translate(lang, $("#traH4").attr("data-token")));
   $("#traH5").html(langModule.translate(lang, $("#traH5").attr("data-token")));
   $("#traH6").html(langModule.translate(lang, $("#traH6").attr("data-token")));
   $("#traH7").html(langModule.translate(lang, $("#traH7").attr("data-token")));
   $("#traH8").html(langModule.translate(lang, $("#traH8").attr("data-token")));
   $("#traH9").html(langModule.translate(lang, $("#traH9").attr("data-token")));
+  $("#traH9a").html(
+    langModule.translate(lang, $("#traH9a").attr("data-token"))
+  );
   $("#traS1").html(langModule.translate(lang, $("#traS1").attr("data-token")));
   $("#traS2").html(langModule.translate(lang, $("#traS2").attr("data-token")));
   $("#traS3").html(langModule.translate(lang, $("#traS3").attr("data-token")));
@@ -272,6 +291,9 @@ function InitStaticText(lang) {
   $("#traS7").html(langModule.translate(lang, $("#traS7").attr("data-token")));
   $("#traS8").html(langModule.translate(lang, $("#traS8").attr("data-token")));
   $("#traS9").html(langModule.translate(lang, $("#traS9").attr("data-token")));
+  $("#traIMG").html(
+    langModule.translate(lang, $("#traIMG").attr("data-token"))
+  );
 }
 
 //InitStaticText("en");
