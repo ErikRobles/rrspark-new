@@ -80,6 +80,17 @@ function TransMod() {
   library["en"]["translatable.traH8"] = "WE'VE GOT YOUR BACK";
   library["en"]["translatable.traH9"] =
     "Your first steps in the world of the web should be easy, but is something goes wrong, you can always contact us. We will be there for you.";
+  library["en"]["translatable.traS1"] =
+    "ATTRACT NEW CLIENTS<br /> WITH PROMOTIONS";
+  library["en"]["translatable.traS2"] = "LANDING PAGES";
+  library["en"]["translatable.traS3"] = "";
+  library["en"]["translatable.traS4"] =
+    "BOOST CREDIBILITY<br /> AND GREATER REACH";
+  library["en"]["translatable.traS5"] = "WEBSITES";
+  library["en"]["translatable.traS6"] = "";
+  library["en"]["translatable.traS7"] = "SELL YOUR PRODUCT<br /> AND SERVICES";
+  library["en"]["translatable.traS8"] = "E-COMMERCE";
+  library["en"]["translatable.traS9"] = "";
 
   library["es"] = new Array();
   library["es"]["translatable.tra1"] = "I";
@@ -158,6 +169,17 @@ function TransMod() {
   library["es"]["translatable.traH8"] = "CUIDAMOS<br />TU ESPALDA";
   library["es"]["translatable.traH9"] =
     "Tus primeros pasos en el universo web<br />serán sencillos pero si algo se te complica<br />puedes contactarnos,<br />Estaremos ahí para ayudarte";
+  library["es"]["translatable.traS1"] =
+    "ATRAER NUEVOS CLIENTES<br /> CON PROMOCIONES";
+  library["es"]["translatable.traS2"] = "LANDING PAGES";
+  library["es"]["translatable.traS3"] = "";
+  library["es"]["translatable.traS4"] = "CREDIBILIDAD Y<br /> MAYOR ALCANCE";
+  library["es"]["translatable.traS5"] = "SITIOS WEB";
+  library["es"]["translatable.traS6"] = "";
+  library["es"]["translatable.traS7"] =
+    "VENDER TUS PRODUCTOS<br /> Y SERVICIOS";
+  library["es"]["translatable.traS8"] = "E-COMMERCE";
+  library["es"]["translatable.traS9"] = "";
 }
 
 //( function(){
@@ -241,6 +263,15 @@ function InitStaticText(lang) {
   $("#traH7").html(langModule.translate(lang, $("#traH7").attr("data-token")));
   $("#traH8").html(langModule.translate(lang, $("#traH8").attr("data-token")));
   $("#traH9").html(langModule.translate(lang, $("#traH9").attr("data-token")));
+  $("#traS1").html(langModule.translate(lang, $("#traS1").attr("data-token")));
+  $("#traS2").html(langModule.translate(lang, $("#traS2").attr("data-token")));
+  $("#traS3").html(langModule.translate(lang, $("#traS3").attr("data-token")));
+  $("#traS4").html(langModule.translate(lang, $("#traS4").attr("data-token")));
+  $("#traS5").html(langModule.translate(lang, $("#traS5").attr("data-token")));
+  $("#traS6").html(langModule.translate(lang, $("#traS6").attr("data-token")));
+  $("#traS7").html(langModule.translate(lang, $("#traS7").attr("data-token")));
+  $("#traS8").html(langModule.translate(lang, $("#traS8").attr("data-token")));
+  $("#traS9").html(langModule.translate(lang, $("#traS9").attr("data-token")));
 }
 
 //InitStaticText("en");

@@ -181,15 +181,56 @@ h3 {
 
 .how-to-container {
   background-color: #d7d7d7;
-  min-height: 300px;
+  padding-bottom: 20px;
 }
 
 .how-wrapper {
-  max-width: 99.9%;
-  padding-left: 85px;
+  width: 80%;
+  padding-left: 75px;
+  padding-bottom: 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 33.334% 33.334% 33.334%;
+}
+
+.service-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.service-backdrop {
+  background-color: #3e1349;
+  width: 80%;
+  margin: 0 auto;
+  margin-left: 12.5%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.service-backdrop h2 {
+  text-align: center;
+  color: #d7d7d7;
+  font-family: "Lato", sans-serif;
+}
+.box {
+  background-color: #d7d7d7;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 3px;
+  width: 100px;
+  height: 100px;
+}
+
+.box h3 {
+  color: #3e1349;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+.fas.service-icon {
+  color: #3e1349;
+  font-size: 30px;
 }
 
 @media only screen and (max-width: 1231px) {
@@ -197,11 +238,25 @@ h3 {
     grid-template-columns: 100%;
     padding-left: 0px;
   }
+  .service-wrapper {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+  }
+
+  .box {
+    margin: 20px;
+  }
 }
 
 @media only screen and (max-width: 850px) {
   .jumbo-image-holder {
     padding-top: 50px;
+  }
+  .service-backdrop {
+    margin-left: 10%;
+    width: 80%;
   }
 }
 
