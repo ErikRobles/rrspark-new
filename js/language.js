@@ -70,21 +70,27 @@ function TransMod() {
     "WE HELP YOU FIND<br /> THE BEST PATH<BR /> FOR YOUR OBJECTIVE";
   library["en"]["translatable.traH2"] = "CHAT<br /> WITH US";
   library["en"]["translatable.traH3"] =
-    "In the world of web, there<br /> are many paths. There is only one that fits:<br>";
+    "In the world of web, there are many paths. There is only one that fits:<br>";
   library["en"]["translatable.traH3a"] =
-    "<ul class='list-text' style='text-align: left; margin-left: -25px;'><li>Your type of business</li><li>Objectives and</li><li>Budget</li></ul>";
+    "<ul class='list-text'><li>Your type of business</li><li>Objectives and</li><li>Budget</li></ul>";
   library["en"]["translatable.traH4"] =
     "WE CLEAR THE WAY<BR /> AND WALK ALONG<BR /> THE PATH WITH YOU";
   library["en"]["translatable.traH5"] = "WE CREATE IT FOR YOU";
   library["en"]["translatable.traH6"] =
-    "<ul style='text-align: left; margin-left: -25px;'><li>We agree upon a plan and a schedule of processes</li><li>Make an inicial down payment</li><li>We meet periodically to see progress and make adjustments</li><li>Complete the payment process upon delivery</li></ul>";
+    "<ul class='list-text'><li>We agree upon a plan and a schedule of processes</li><li>Make an inicial down payment</li><li>We meet periodically to see progress and make adjustments</li><li>Complete the payment process upon delivery</li></ul>";
   library["en"]["translatable.traH7"] =
     "AND LATER... WHEN<br /> YOU NEED US, WE<br /> WILL BE THERE WITH YOU";
   library["en"]["translatable.traH8"] = "WE'VE GOT YOUR BACK";
   library["en"]["translatable.traH9"] =
     "Your first steps in your<br />web business should be easy,<br /> but is something goes wrong, you can always contact us.";
-  library["en"]["translatable.tra9a"] =
-    "<ul class='list-text' style='text-align: left; margin-left: -25px;'><li>Without a doubt, we will be there for you</li></ul>";
+  library["en"]["translatable.traH9a"] =
+    "<ul class='list-text'><li>Without a doubt, we will be there for you</li></ul>";
+  library["en"]["translatable.traH10"] =
+    "What do you have planned for your business?";
+  library["en"]["translatable.traH11"] =
+    "CHAT WITH US, WE'LL SET A TIME FOR YOU";
+  library["en"]["translatable.traH12"] =
+    "We would love to be a part of your story";
   library["en"]["translatable.traS1"] =
     "ATTRACT NEW CLIENTS<br /> WITH PROMOTIONS";
   library["en"]["translatable.traS2"] = "LANDING PAGES";
@@ -97,7 +103,7 @@ function TransMod() {
   library["en"]["translatable.traS8"] = "E-COMMERCE";
   library["en"]["translatable.traS9"] = "";
   library["en"]["translatable.traIMG"] =
-    "<img src='/assets/img/engrrsparkctabutton.png' alt=''>";
+    "<a href='https://api.whatsapp.com/send?phone=525519637961' target='_blank'><img src='/assets/img/engrrsparkctabutton.png' alt=''></a>";
 
   library["es"] = new Array();
   library["es"]["translatable.tra1"] = "I";
@@ -165,21 +171,26 @@ function TransMod() {
     "ENCONTRAREMOS<br />LA MEJOR VÍA<br />PARA TU OBJETIVO";
   library["es"]["translatable.traH2"] = "PLATICA CON<br /> NOSOTROS";
   library["es"]["translatable.traH3"] =
-    "En el universo web hay<br />muchos caminos y uno<br />que se ajusta a :<br>";
+    "En el universo web hay muchos caminos y uno que se ajusta a :<br>";
   library["es"]["translatable.traH3a"] =
-    "<ul class='list-text' style='text-align: left; margin-left: -25px;'><li>Tu tipo de negocio</li><li>Ovjetivos y</li><li>Presupuesto</li></ul>";
+    "<ul class='list-text'><li>Tu tipo de negocio</li><li>Ovjetivos y</li><li>Presupuesto</li></ul>";
   library["es"]["translatable.traH4"] =
     "ABRIMOS<br />EL CAMINO Y<br>AVANZAREMOS CONTIGO";
   library["es"]["translatable.traH5"] = "LO CREAMOS<br />PARA TI";
   library["es"]["translatable.traH6"] =
-    "<ul class='list-text' style='text-align: left; margin-left: -25px;'><li>Acordamos un plan y un calendario de procesos.</li><li>Haces el depósito inicial</li><li>Tendremos citas para ver el progreso y ajustes</li><li>Liquidas al momento de la entrega de tu sitio web</li></ul>";
+    "<ul class='list-text' style='text-align: left; margin-left: -12px;'><li>Acordamos un plan y un calendario de procesos.</li><li>Haces el depósito inicial</li><li>Tendremos citas para ver el progreso y ajustes</li><li>Liquidas al momento de la entrega de tu sitio web</li></ul>";
   library["es"]["translatable.traH7"] =
     "Y DESPUÉS... CUANDO<br /> NOS NECESITES<br /> ESTAREMOS CONTIGO";
   library["es"]["translatable.traH8"] = "CUIDAMOS<br />TU ESPALDA";
   library["es"]["translatable.traH9"] =
     "Tus primeros pasos con tu negocio web serán sencillos pero si algo se complicará, puedes contactarnos.";
   library["es"]["translatable.traH9a"] =
-    "<ul class='list-text' style='text-align: left; margin-left: -25px;'><li>Sin duda, estaremos ahí para ayudarte</li></ul>";
+    "<ul class='list-text' style='text-align: left; margin-left: -12px;'><li>Sin duda, estaremos ahí para ayudarte</li></ul>";
+  library["es"]["translatable.traH10"] = "¿Qué planes tienes para tu negocio?";
+  library["es"]["translatable.traH11"] =
+    "PLATÍCANOS, RESERVAREMOS UN TIEMPO PARA TI";
+  library["es"]["translatable.traH12"] =
+    "Nos encantará ser parte de tu historia";
   library["es"]["translatable.traS1"] =
     "ATRAER NUEVOS CLIENTES<br /> CON PROMOCIONES";
   library["es"]["translatable.traS2"] = "LANDING PAGES";
@@ -192,7 +203,7 @@ function TransMod() {
   library["es"]["translatable.traS8"] = "E-COMMERCE";
   library["es"]["translatable.traS9"] = "";
   library["es"]["translatable.traIMG"] =
-    "<img src='/assets/img/esprrsparkctabutton.png' alt=''>";
+    "<a href='https://api.whatsapp.com/send?phone=525519637961' target='_blank'><img src='/assets/img/esprrsparkctabutton.png' alt=''></a>";
 }
 
 //( function(){
@@ -281,6 +292,15 @@ function InitStaticText(lang) {
   $("#traH9").html(langModule.translate(lang, $("#traH9").attr("data-token")));
   $("#traH9a").html(
     langModule.translate(lang, $("#traH9a").attr("data-token"))
+  );
+  $("#traH10").html(
+    langModule.translate(lang, $("#traH10").attr("data-token"))
+  );
+  $("#traH11").html(
+    langModule.translate(lang, $("#traH11").attr("data-token"))
+  );
+  $("#traH12").html(
+    langModule.translate(lang, $("#traH12").attr("data-token"))
   );
   $("#traS1").html(langModule.translate(lang, $("#traS1").attr("data-token")));
   $("#traS2").html(langModule.translate(lang, $("#traS2").attr("data-token")));
