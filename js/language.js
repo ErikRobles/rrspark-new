@@ -3,9 +3,15 @@ function TransMod() {
     return library[lang][token];
   };
 
-  var library = new Array();
+  let library = new Array();
 
   library["en"] = new Array();
+  library["en"]["translatable.traA1"] =
+    "Hello! We know that as a business owner or a freelancer, You have spent a lot of time giving your customers the best, you want to grow, reach more people and have thought of the web as a viable solution but you have some doubts.";
+  library["en"]["translatable.traA1a"] =
+    "Yes, there are certainly many options but there are only a few ideal choices for you. We know this because that's what we do and we love finding and developing them so that you and your business can shine and attract the right people.";
+  library["en"]["translatable.traA2"] =
+    "We are a sparking and proactive duality, passionate about our areas - 'Design, Communication and Art/Web, Code and Technology' and we put our talents, knowledge and good vibes at your disposal for you to write one more chapter in your professional story.";
   library["en"]["translatable.tra1"] = "H";
   library["en"]["translatable.tra2"] = "OME";
   library["en"]["translatable.tra3"] = "P";
@@ -104,8 +110,23 @@ function TransMod() {
   library["en"]["translatable.traS9"] = "";
   library["en"]["translatable.traIMG"] =
     "<a href='https://api.whatsapp.com/send?phone=525519637961' target='_blank'><img src='/assets/img/engrrsparkctabutton.png' alt=''></a>";
+  library["en"]["translatable.traIMG1"] =
+    "<img src='/assets/img/engimagpagehowto.png' alt='' style='width: 100%;'>";
+  library["en"]["translatable.traIMG2"] =
+    "<img src='/assets/img/engimagpageservices.png' alt='' style='width: 100%;'>";
+  library["en"]["translatable.traSP1"] = "Responsive<br />Design";
+  library["en"]["translatable.traSP2"] = "Domain<br /> and Hosting";
+  library["en"]["translatable.traSP3"] = "SSL<br />Certificate";
+  library["en"]["translatable.traSP4"] = "Support<br />and Training";
+  library["en"]["translatable.traSP5"] = "After-Sales<br />Care";
 
   library["es"] = new Array();
+  library["es"]["translatable.traA1"] =
+    "¡Hola! Sabemos que como dueño de un negocio o un profesional independiente, <strong>haz invertido mucho tiempo en dar lo mejor de ti a tus clientes, que deseas crecer, llegar a más personas</strong> y que haz pensado en la web como una solución pero tienes algunas dudas.";
+  library["es"]["translatable.traA1a"] =
+    "Sí, ciertamente existen muchísimas <strong>opciones</strong> pero solamente hay unas cuántas <strong>ideales para ti</strong>. Lo sabemos porque a eso nos dedicamos, nos fascina encontrarlas y desarrollarlas para que tu y tú negocio brillen y atraigan a la gente correcta.";
+  library["es"]["translatable.traA2"] =
+    "Somos una dualidad chispeante y proactiva, apasionados de nuestras áreas 'Diseño, Comunicación y Arte- Web, Código y Tecnología' y ponemos nuestros talentos, conocimiento y buena vibra a tu disposición para que escribas un capítulo más en tu historia profesional.";
   library["es"]["translatable.tra1"] = "I";
   library["es"]["translatable.tra2"] = "NICIO";
   library["es"]["translatable.tra3"] = "P";
@@ -120,7 +141,7 @@ function TransMod() {
   library["es"]["translatable.tra12"] = "C";
   library["es"]["translatable.tra13"] = "ONTACTO";
   library["es"]["translatable.tra14"] =
-    "DEJA QUE NUESTRA CHISPA DÉ VIDA A TU VISIÓN";
+    "DEJA QUE NUESTRA CHISPA<br /> DÉ VIDA A TU VISIÓN";
   library["es"]["translatable.tra16"] =
     "Incrementa el número de<br /><span class='stronger'>clientes que quieren que<br />seas parte de su historia<span>";
   library["es"]["translatable.tra17"] = "Landing Pages";
@@ -204,13 +225,26 @@ function TransMod() {
   library["es"]["translatable.traS9"] = "";
   library["es"]["translatable.traIMG"] =
     "<a href='https://api.whatsapp.com/send?phone=525519637961' target='_blank'><img src='/assets/img/esprrsparkctabutton.png' alt=''></a>";
+  library["es"]["translatable.traIMG1"] =
+    "<img src='/assets/img/espimagpagehowtostart.png' alt='' style='width: 100%;'>";
+  library["es"]["translatable.traIMG2"] =
+    "<img src='/assets/img/espimagpageservices.png' alt='' style='width: 100%;'>";
+  library["es"]["translatable.traSP1"] = "Diseño<br />Responsivo";
+  library["es"]["translatable.traSP2"] = "Dominiio y<br />Hospedaje";
+  library["es"]["translatable.traSP3"] = "Certificado<br />SSL";
+  library["es"]["translatable.traSP4"] = "Capacitación<br />y Soporte";
+  library["es"]["translatable.traSP5"] = "Cuidado<br />Post Venta";
 }
 
 //( function(){
 
 function InitStaticText(lang) {
   var langModule = new TransMod();
-
+  $("#traA1").html(langModule.translate(lang, $("#traA1").attr("data-token")));
+  $("#traA1a").html(
+    langModule.translate(lang, $("#traA1a").attr("data-token"))
+  );
+  $("#traA2").html(langModule.translate(lang, $("#traA2").attr("data-token")));
   $("#tra1").html(langModule.translate(lang, $("#tra1").attr("data-token")));
   $("#tra2").html(langModule.translate(lang, $("#tra2").attr("data-token")));
   $("#tra3").html(langModule.translate(lang, $("#tra3").attr("data-token")));
@@ -313,6 +347,27 @@ function InitStaticText(lang) {
   $("#traS9").html(langModule.translate(lang, $("#traS9").attr("data-token")));
   $("#traIMG").html(
     langModule.translate(lang, $("#traIMG").attr("data-token"))
+  );
+  $("#traIMG1").html(
+    langModule.translate(lang, $("#traIMG1").attr("data-token"))
+  );
+  $("#traIMG2").html(
+    langModule.translate(lang, $("#traIMG2").attr("data-token"))
+  );
+  $("#traSP1").html(
+    langModule.translate(lang, $("#traSP1").attr("data-token"))
+  );
+  $("#traSP2").html(
+    langModule.translate(lang, $("#traSP2").attr("data-token"))
+  );
+  $("#traSP3").html(
+    langModule.translate(lang, $("#traSP3").attr("data-token"))
+  );
+  $("#traSP4").html(
+    langModule.translate(lang, $("#traSP4").attr("data-token"))
+  );
+  $("#traSP5").html(
+    langModule.translate(lang, $("#traSP5").attr("data-token"))
   );
 }
 

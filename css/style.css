@@ -87,7 +87,6 @@ h3 {
   padding-left: 95px;
   display: -ms-grid;
   display: grid;
-  grid-template: 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 40vh 40vh 20vh;
   grid-template-rows: 40vh 40vh 20vh;
   grid-template-areas:
@@ -186,7 +185,6 @@ h3 {
 
 .how-wrapper {
   width: 80%;
-  /* padding-left: 75px; */
   padding-bottom: 20px;
   margin: 0 auto;
   display: grid;
@@ -195,13 +193,133 @@ h3 {
 
 .boxa,
 .boxc {
-  padding: 10px 65px;
-  text-align: center;
+  padding: 10px 45px;
 }
 
 .boxb {
-  padding: 10px 50px;
+  padding: 10px 30px;
+}
+
+.boxb ul.list-text {
+  padding-left: 25px;
+}
+
+.boxa .how-title,
+.boxb .how-title,
+.boxc .how-title {
   text-align: center;
+}
+
+@media only screen and (min-width: 501px) {
+  .boxa,
+  .boxb,
+  .boxc {
+    padding: 10px 20px;
+  }
+  .boxa ul.list-text {
+    padding-left: 5px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .boxa,
+  .boxb,
+  .boxc {
+    padding: 10px 45px;
+    text-align: center;
+  }
+  .boxa ul.list-text {
+    padding-left: 45px;
+  }
+  .boxb ul.list-text {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 1231px) {
+  .boxa,
+  .boxb,
+  .boxc {
+    padding: 10px 50px;
+    text-align: center;
+  }
+  .boxa ul.list-text {
+    padding-left: 45px;
+  }
+  .boxb ul.list-text {
+    padding-left: 30px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .boxa,
+  .boxc {
+    padding: 10px 70px;
+  }
+  .boxb {
+    padding: 10px 65px;
+  }
+  .boxb ul.list-text,
+  .boxa ul.list-text {
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .boxa,
+  .boxc {
+    padding: 10px 75px;
+  }
+  .boxb {
+    padding: 10px 75px;
+  }
+  .boxb ul.list-text,
+  .boxa ul.list-text {
+    padding-left: 40px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .boxa,
+  .boxc {
+    padding: 10px 70px;
+  }
+  .boxb {
+    padding: 10px 65px;
+  }
+  .boxb ul.list-text,
+  .boxa ul.list-text {
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .boxa,
+  .boxc {
+    padding: 10px 90px;
+  }
+  .boxb {
+    padding: 10px 85px;
+  }
+  .boxb ul.list-text,
+  .boxa ul.list-text {
+    padding-left: 40px;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .boxa,
+  .boxc {
+    padding: 10px 130px;
+  }
+  .boxb {
+    padding: 10px 120px;
+  }
+  .boxb ul.list-text,
+  .boxa ul.list-text {
+    padding-left: 50px;
+  }
+  .boxc ul.list-text {
+    padding-left: 60px;
+  }
 }
 
 .service-wrapper {
@@ -244,20 +362,31 @@ h3 {
   font-size: 30px;
 }
 
+.footerbox1 {
+  grid-area: ContactBox;
+}
+.footerbox2 {
+  grid-area: ActionBox;
+}
+.footerbox3 {
+  grid-area: ImageBox;
+}
+
 .footer-wrapper {
   display: grid;
-  grid-template-columns: 20% 55% 25%;
+  grid-template-areas: "ContactBox ContactBox ActionBox ActionBox ActionBox ActionBox ActionBox ImageBox";
 }
 
 footer.how-service {
   background-color: #323232;
   min-height: 150px;
   margin-bottom: -20px;
-  padding: 30px 30px 30px 85px;
+  padding: 20px 30px 10px 85px;
 }
 
 .footerbox1 {
-  padding-left: 30px;
+  padding-left: 50px;
+  padding-right: 30px;
 }
 
 .footerbox2 {
@@ -320,11 +449,13 @@ footer.how-service {
   width: 130px;
   height: 130px;
   transition: 0.5s ease-in-out;
+  text-align: center;
 }
 
 .iconbox h3 {
   font-family: "Lato", sans-serif;
   font-size: 18px;
+  text-align: center;
 }
 
 .fa.fa-comments,
@@ -362,6 +493,12 @@ ul.list-text {
   color: #323232;
   text-align: right;
   padding: 3px;
+  padding-bottom: 0;
+  margin-top: -10px;
+}
+
+.call-to-action:last-child {
+  padding-bottom: 1px;
 }
 
 .underline {
@@ -401,6 +538,7 @@ ul.list-text {
 .rrspark-button img {
   margin-top: -30%;
   width: 95%;
+  max-width: 290px;
   float: right;
 }
 
@@ -858,13 +996,17 @@ a.footer-whatsapp-button:hover {
   color: #323232;
 }
 
+.how-service-footer {
+  padding-top: 10px;
+}
+
 @media only screen and (max-width: 1231px) {
   .section {
     width: 300px;
     margin: 0 auto;
   }
   .how-wrapper {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100%;
     padding-left: 0px;
   }
   .a {
@@ -903,16 +1045,24 @@ a.footer-whatsapp-button:hover {
     margin: 20px;
   }
   .footer-wrapper {
-    grid-template-columns: 1fr;
+    grid-template-areas:
+      "ImageBox"
+      "ActionBox"
+      "ContactBox";
     text-align: center;
   }
   footer.how-service {
-    padding: 30px 30px 30px 30px;
+    padding: 10px 30px 30px 10px;
   }
   .footerbox1 {
     padding-left: 0px;
     padding-bottom: 20px;
+    padding-top: 20px;
     text-align: center;
+  }
+  .footerbox2 {
+    padding: 10px 0 10px 85px;
+    width: 90%;
   }
   .how-service-footer {
     text-align: center;
@@ -920,6 +1070,9 @@ a.footer-whatsapp-button:hover {
   .call-to-action {
     text-align: center;
     padding-top: 5px;
+  }
+  .whatsappbox h3.question {
+    text-align: center !important;
   }
 }
 
@@ -930,6 +1083,11 @@ a.footer-whatsapp-button:hover {
   .service-backdrop {
     margin-left: 10%;
     width: 80%;
+  }
+  .footerbox2 {
+    padding: 10px 0 10px 10px;
+    width: 100%;
+    text-align: center;
   }
 }
 
@@ -952,7 +1110,7 @@ a.footer-whatsapp-button:hover {
   text-align: center;
   background-color: #d7d7d7;
   padding: 8px;
-  margin-right: 6px;
+  margin-right: 5px;
   font-size: 20px;
   color: #323232;
 }
