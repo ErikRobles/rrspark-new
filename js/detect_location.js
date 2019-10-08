@@ -24,18 +24,4 @@ var detect_location = {
     hr.send(params);
   }
 };
-/*// set endpoint and your access key
-var ip = '134.201.250.155'
-var access_key = '69f87746315815247b217aa18b63d519';
 
-// get the API result via jQuery.ajax
-$.ajax({
-    url: 'http://api.ipapi.com/' + ip + '?access_key=' + access_key,   
-    dataType: 'jsonp',
-    success: function(json) {
-
-        // output the "calling_code" object inside "location"
-        alert(json.location.calling_code);
-      */
-// }
-//});
