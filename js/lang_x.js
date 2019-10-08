@@ -3,7 +3,7 @@ var detect_location = {
     var formdata = new FormData();
     formdata.append("key", "123/*");
     detect_location.getajax(
-      "https://www.rrspark.com",
+      "https://rrspark.com/geo/geo.php",
       "POST",
       formdata,
       detect_location.cbfunkx
@@ -26,7 +26,7 @@ var detect_location = {
   },
   ipapi: function(ipx) {
     var access_key = "6524155cdceb566f600e58d695e6a434";
-    var urlx = "http://api.ipapi.com/api/" + ipx + "?access_key=" + access_key;
+    var urlx = "https://api.ipapi.com/api/" + ipx + "?access_key=" + access_key;
     //console.log(urlx);
     detect_location.getajax(urlx, "GET", "", detect_location.cbipapi);
   },
@@ -125,23 +125,8 @@ var detect_location = {
         break;
 
       default:
-        console.log("USA");
+        console.log(jsonx["country_code"]);
     }
     console.log(jsonx["country_code"]);
   }
 };
-/*// set endpoint and your access key
-var ip = '134.201.250.155'
-var access_key = '69f87746315815247b217aa18b63d519';
-
-// get the API result via jQuery.ajax
-$.ajax({
-    url: 'http://api.ipapi.com/' + ip + '?access_key=' + access_key,   
-    dataType: 'jsonp',
-    success: function(json) {
-
-        // output the "calling_code" object inside "location"
-        alert(json.location.calling_code);
-      */
-// }
-//});

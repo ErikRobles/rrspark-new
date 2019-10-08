@@ -7,11 +7,11 @@ function TransMod() {
 
   library["en"] = new Array();
   library["en"]["translatable.traA1"] =
-    "Hello! We know that as a business owner or a freelancer, You have spent a lot of time giving your customers the best, you want to grow, reach more people and have thought of the web as a viable solution but you have some doubts.";
+    "Hello! We know that as a business owner or a freelancer, <strong>You have spent a lot of time giving your customers the best, you want to grow, reach more people</strong> and have thought of the web as a viable solution but you have some doubts.";
   library["en"]["translatable.traA1a"] =
-    "Yes, there are certainly many options but there are only a few ideal choices for you. We know this because that's what we do and we love finding and developing them so that you and your business can shine and attract the right people.";
+    "Yes, there are certainly many options but there are only a few <strong>ideal choices for you</strong>. We know this because <strong>that's what we do and we love finding and developing them so that you and your business can shine and attract the right people</strong>.";
   library["en"]["translatable.traA2"] =
-    "We are a sparking and proactive duality, passionate about our areas - 'Design, Communication and Art/Web, Code and Technology' and we put our talents, knowledge and good vibes at your disposal for you to write one more chapter in your professional story.";
+    "We are a sparking and proactive duality, passionate about our areas - 'Design, Communication and Art/Web, Code and Technology' and <strong>we put our talents, knowledge and good vibes at your disposal</strong> for you to write one more chapter in your professional story.";
   library["en"]["translatable.tra1"] = "H";
   library["en"]["translatable.tra2"] = "OME";
   library["en"]["translatable.tra3"] = "P";
@@ -114,6 +114,7 @@ function TransMod() {
     "<img src='/assets/img/engimagpagehowto.png' alt='' style='width: 100%;'>";
   library["en"]["translatable.traIMG2"] =
     "<img src='/assets/img/engimagpageservices.png' alt='' style='width: 100%;'>";
+  library["en"]["translatable.traSPa"] = "ALL OUR PRODUCTS INCLUDE:";
   library["en"]["translatable.traSP1"] = "Responsive<br />Design";
   library["en"]["translatable.traSP2"] = "Domain<br /> and Hosting";
   library["en"]["translatable.traSP3"] = "SSL<br />Certificate";
@@ -124,9 +125,9 @@ function TransMod() {
   library["es"]["translatable.traA1"] =
     "¡Hola! Sabemos que como dueño de un negocio o un profesional independiente, <strong>haz invertido mucho tiempo en dar lo mejor de ti a tus clientes, que deseas crecer, llegar a más personas</strong> y que haz pensado en la web como una solución pero tienes algunas dudas.";
   library["es"]["translatable.traA1a"] =
-    "Sí, ciertamente existen muchísimas <strong>opciones</strong> pero solamente hay unas cuántas <strong>ideales para ti</strong>. Lo sabemos porque a eso nos dedicamos, nos fascina encontrarlas y desarrollarlas para que tu y tú negocio brillen y atraigan a la gente correcta.";
+    "Sí, ciertamente existen muchísimas <strong>opciones</strong> pero solamente hay unas cuántas <strong>ideales para ti</strong>. Lo sabemos porque <strong>a eso nos dedicamos, nos fascina encontrarlas y desarrollarlas para que tu y tú negocio brillen y atraigan a la gente correcta</strong>.";
   library["es"]["translatable.traA2"] =
-    "Somos una dualidad chispeante y proactiva, apasionados de nuestras áreas 'Diseño, Comunicación y Arte- Web, Código y Tecnología' y ponemos nuestros talentos, conocimiento y buena vibra a tu disposición para que escribas un capítulo más en tu historia profesional.";
+    "Somos una dualidad chispeante y proactiva, apasionados de nuestras áreas 'Diseño, Comunicación y Arte- Web, Código y Tecnología' y <strong>ponemos nuestros talentos, conocimiento y buena vibra a tu disposición</strong> para que escribas un capítulo más en tu historia profesional.";
   library["es"]["translatable.tra1"] = "I";
   library["es"]["translatable.tra2"] = "NICIO";
   library["es"]["translatable.tra3"] = "P";
@@ -152,7 +153,7 @@ function TransMod() {
   library["es"]["translatable.tra22"] = "Aviso de Privacidad";
   library["es"]["translatable.tra23"] = "SERVICIOS";
   library["es"]["translatable.traL1"] = "RR Spark Política de Privacidad";
-  library["es"]["translatable.traL2"] = "Pólitica de Privacidad";
+  library["es"]["translatable.traL2"] = "Política de Privacidad";
   library["es"]["translatable.traL3"] =
     "Última actualización: 1 de octubre de 2019";
   library["es"]["translatable.traL4"] =
@@ -192,9 +193,9 @@ function TransMod() {
     "ENCONTRAREMOS<br />LA MEJOR VÍA<br />PARA TU OBJETIVO";
   library["es"]["translatable.traH2"] = "PLATICA CON<br /> NOSOTROS";
   library["es"]["translatable.traH3"] =
-    "En el universo web hay muchos caminos y uno que se ajusta a :<br>";
+    "En el universo web hay muchos caminos y uno que se ajusta a:<br>";
   library["es"]["translatable.traH3a"] =
-    "<ul class='list-text'><li>Tu tipo de negocio</li><li>Ovjetivos y</li><li>Presupuesto</li></ul>";
+    "<ul class='list-text'><li>Tu tipo de negocio</li><li>Objetivos y</li><li>Presupuesto</li></ul>";
   library["es"]["translatable.traH4"] =
     "ABRIMOS<br />EL CAMINO Y<br>AVANZAREMOS CONTIGO";
   library["es"]["translatable.traH5"] = "LO CREAMOS<br />PARA TI";
@@ -229,8 +230,9 @@ function TransMod() {
     "<img src='/assets/img/espimagpagehowtostart.png' alt='' style='width: 100%;'>";
   library["es"]["translatable.traIMG2"] =
     "<img src='/assets/img/espimagpageservices.png' alt='' style='width: 100%;'>";
+  library["es"]["translatable.traSPa"] = "TODOS NUESTROS PRODUCTOS INCLUYEN:";
   library["es"]["translatable.traSP1"] = "Diseño<br />Responsivo";
-  library["es"]["translatable.traSP2"] = "Dominiio y<br />Hospedaje";
+  library["es"]["translatable.traSP2"] = "Dominio y<br />Hospedaje";
   library["es"]["translatable.traSP3"] = "Certificado<br />SSL";
   library["es"]["translatable.traSP4"] = "Capacitación<br />y Soporte";
   library["es"]["translatable.traSP5"] = "Cuidado<br />Post Venta";
@@ -300,6 +302,9 @@ function InitStaticText(lang) {
   $("#traL17").html(
     langModule.translate(lang, $("#traL17").attr("data-token"))
   );
+  $("#traL17a").html(
+    langModule.translate(lang, $("#traL17a").attr("data-token"))
+  );
   $("#traL18").html(
     langModule.translate(lang, $("#traL18").attr("data-token"))
   );
@@ -353,6 +358,9 @@ function InitStaticText(lang) {
   );
   $("#traIMG2").html(
     langModule.translate(lang, $("#traIMG2").attr("data-token"))
+  );
+  $("#traSPa").html(
+    langModule.translate(lang, $("#traSPa").attr("data-token"))
   );
   $("#traSP1").html(
     langModule.translate(lang, $("#traSP1").attr("data-token"))
