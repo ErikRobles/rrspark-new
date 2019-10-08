@@ -25,7 +25,7 @@ var detect_location = {
     hr.send(params);
   },
   ipapi: function(ipx) {
-    var access_key = "6524155cdceb566f600e58d695e6a434";
+    var access_key = "xxxxxxxxxxxxxxxxxxxxxetc";
     var urlx = "https://api.ipapi.com/api/" + ipx + "?access_key=" + access_key;
     //console.log(urlx);
     detect_location.getajax(urlx, "GET", "", detect_location.cbipapi);
